@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/AssertOnString.dir/assertOnString.cpp.o  -o AssertOnString  ../lib/libgtest_maind.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 

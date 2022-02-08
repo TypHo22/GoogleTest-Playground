@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TestFixtures.dir/testFixtures.cpp.o CMakeFiles/TestFixtures.dir/inc/CodeUnderTest.cpp.o  -o TestFixtures  ../lib/libgtest_maind.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 

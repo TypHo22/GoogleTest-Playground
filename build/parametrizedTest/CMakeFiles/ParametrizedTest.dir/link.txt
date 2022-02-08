@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/ParametrizedTest.dir/parametrizedTest.cpp.o CMakeFiles/ParametrizedTest.dir/inc/CodeUnderTest.cpp.o  -o ParametrizedTest  ../lib/libgtest_maind.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 

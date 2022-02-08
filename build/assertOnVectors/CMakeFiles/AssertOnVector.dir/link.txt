@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/AssertOnVector.dir/assertOnVector.cpp.o  -o AssertOnVector  ../lib/libgtest_maind.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 

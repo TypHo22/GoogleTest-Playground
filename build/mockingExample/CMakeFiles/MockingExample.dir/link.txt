@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/MockingExample.dir/testRunner.cpp.o  -o MockingExample  ../lib/libgtest_maind.a ../lib/libgmock_maind.a -lpthread libdatabaseConnectionLibrary.a libemployeeManagerLibrary.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 
