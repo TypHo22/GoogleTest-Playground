@@ -1,0 +1,3 @@
+add_executable(AssertOnVector assertOnVector.cpp)
+include_directories(inc)
+target_link_libraries(AssertOnVector gtest_main gmock_main)

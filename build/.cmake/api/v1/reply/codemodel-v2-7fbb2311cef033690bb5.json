@@ -1,0 +1,351 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "assertOnException",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assertOnException",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "assertOnString",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assertOnString",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "assertOnVectors",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assertOnVectors",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "testFixtures",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "testFixtures",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "parametrizedTest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "parametrizedTest",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "mockingExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mockingExample",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "build/_deps/googletest-src",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/googletest-src"
+				},
+				{
+					"build" : "build/_deps/googletest-src/googlemock",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "build/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "build/_deps/googletest-src/googletest",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 3,
+					"source" : "build/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				}
+			],
+			"name" : "DEBUG",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Playground",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "AssertOnException::@dfaee1b1f689f7b1e236",
+					"jsonFile" : "target-AssertOnException-DEBUG-eb0562dabcfff9a9c6d8.json",
+					"name" : "AssertOnException",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "AssertOnString::@af373f96b90389d3b185",
+					"jsonFile" : "target-AssertOnString-DEBUG-5c691d42a7bc21f29d25.json",
+					"name" : "AssertOnString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "AssertOnVector::@76721215548fde78622e",
+					"jsonFile" : "target-AssertOnVector-DEBUG-91cc9eb16b8925eb02fe.json",
+					"name" : "AssertOnVector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "MockingExample::@61562203d1def6e2ab53",
+					"jsonFile" : "target-MockingExample-DEBUG-b48a580006fd9753764a.json",
+					"name" : "MockingExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ParametrizedTest::@8b79ba87673b57ab02d5",
+					"jsonFile" : "target-ParametrizedTest-DEBUG-c709fc66c7b37bbd4f98.json",
+					"name" : "ParametrizedTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Playground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Playground-DEBUG-1a525f69108a06adb8a2.json",
+					"name" : "Playground",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "TestFixtures::@207c3594b705471d37fd",
+					"jsonFile" : "target-TestFixtures-DEBUG-50b184e49f632e33efb7.json",
+					"name" : "TestFixtures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "databaseConnectionLibrary::@61562203d1def6e2ab53",
+					"jsonFile" : "target-databaseConnectionLibrary-DEBUG-2b49f7c11899a35784e2.json",
+					"name" : "databaseConnectionLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "employeeManagerLibrary::@61562203d1def6e2ab53",
+					"jsonFile" : "target-employeeManagerLibrary-DEBUG-dc0f28ca8a25014be18d.json",
+					"name" : "employeeManagerLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gmock::@eedd0be5a0d53e750fb6",
+					"jsonFile" : "target-gmock-DEBUG-7ea70785bee00dcee121.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gmock_main::@eedd0be5a0d53e750fb6",
+					"jsonFile" : "target-gmock_main-DEBUG-764a6961c58aba4c7db2.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "gtest::@03b4549fe4063facc5e2",
+					"jsonFile" : "target-gtest-DEBUG-1e3071f2dc6c290ca07c.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "gtest_main::@03b4549fe4063facc5e2",
+					"jsonFile" : "target-gtest_main-DEBUG-66e1a970f51f3539ae40.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zaragesh/develop/GoogleTestPlayground/build",
+		"source" : "/home/zaragesh/develop/GoogleTestPlayground"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

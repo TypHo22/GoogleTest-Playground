@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zaragesh/develop/GoogleTestPlayground/mockingExample/Employee.h
+string
+-
+
+/home/zaragesh/develop/GoogleTestPlayground/mockingExample/IDatabaseConnection.cpp
+IDatabaseConnection.h
+/home/zaragesh/develop/GoogleTestPlayground/mockingExample/IDatabaseConnection.h
+iostream
+-
+
+/home/zaragesh/develop/GoogleTestPlayground/mockingExample/IDatabaseConnection.h
+string
+-
+vector
+-
+Employee.h
+/home/zaragesh/develop/GoogleTestPlayground/mockingExample/Employee.h
+

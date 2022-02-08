@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Playground.dir/main.cpp.o  -o Playground  lib/libgtest_maind.a lib/libgmock_maind.a lib/libgmockd.a lib/libgtestd.a -lpthread 

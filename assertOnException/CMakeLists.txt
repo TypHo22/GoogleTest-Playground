@@ -1,0 +1,3 @@
+add_executable(AssertOnException assertOnException.cpp)
+include_directories(inc)
+target_link_libraries(AssertOnException gtest_main gmock_main)

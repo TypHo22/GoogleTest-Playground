@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AssertOnException.dir/assertOnException.cpp.o  -o AssertOnException  ../lib/libgtest_maind.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 
